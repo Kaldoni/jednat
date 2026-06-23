@@ -5,9 +5,17 @@ export default function Footer() {
     <footer className="bg-surface-container-highest border-t border-outline-variant pt-20 pb-10 mt-auto">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter mb-20">
         <div className="flex flex-col gap-6">
-          <div className="font-headline-md text-headline-md font-bold text-on-surface">
-            Jednat Projects
-          </div>
+          <Link href="/" className="flex items-center gap-3">
+                    <img
+                    src="/pictures/jednat-logo.jpeg"
+                    alt="Jednat Projects Logo"
+                    className="h-10 w-10 object-contain"
+                    />
+          
+                    <span className="font-headline-md text-headline-md font-bold text-primary">
+                   Jednat Projects
+                    </span>
+                  </Link>
           <p className="font-body-md text-on-surface-variant leading-relaxed">
             Professional engineering and industrial services provider committed to global safety and quality standards.
           </p>

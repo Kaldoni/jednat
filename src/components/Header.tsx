@@ -19,8 +19,16 @@ export default function Header() {
   return (
     <header className="bg-surface-white sticky top-0 z-50 border-b border-outline-variant h-20">
       <nav className="flex justify-between items-center px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto h-full">
-        <Link href="/" className="font-headline-md text-headline-md font-bold text-primary">
-          Jednat Projects
+        <Link href="/" className="flex items-center gap-3">
+          <img
+          src="/pictures/jednat-logo.jpeg"
+          alt="Jednat Projects Logo"
+          className="h-10 w-10 object-contain"
+          />
+
+          <span className="font-headline-md text-headline-md font-bold text-primary">
+         Jednat Projects
+          </span>
         </Link>
 
         {/* Desktop Nav */}

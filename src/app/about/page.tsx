@@ -96,7 +96,7 @@ export default function About() {
               </div>
               <div className="absolute bottom-6 left-6 bg-surface-white px-4 py-2 border border-outline-variant">
                 <span className="font-technical-data text-technical-data text-primary">
-                  01 // OPERATIONS
+                  OPERATIONS
                 </span>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function About() {
               </p>
             </div>
             <div className="font-technical-data text-technical-data text-steel-gray">
-              [ TEAM_PROFILE_INDEX_2024 ]
+              [ TEAM_PROFILE ]
             </div>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
