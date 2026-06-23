@@ -38,7 +38,7 @@ export default function About() {
           <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
             <div className="max-w-3xl">
               <span className="font-label-caps text-label-caps text-primary tracking-widest block mb-4">
-                SINCE 2024
+                SINCE 2009
               </span>
               <h1 className="font-display-lg text-display-lg md:text-[64px] text-on-surface leading-none mb-8">
                 Our Story
