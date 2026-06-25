@@ -183,7 +183,7 @@ export default function Home() {
                 </div>
                 <div className="p-6">
                   <h3 className="font-headline-md text-headline-md mb-3">
-                    Oil &amp; Gas
+                    Oil &amp; Gas Services
                   </h3>
                   <p className="text-on-surface-variant text-sm mb-4">
                     Comprehensive upstream and downstream technical support and

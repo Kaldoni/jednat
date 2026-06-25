@@ -39,31 +39,45 @@ export default function Services() {
   const capabilities = [
     {
       title: "EPCM",
-      description: "Comprehensive Engineering, Procurement, Construction Management, delivering end-to-end industrial project lifecycles with strict safety protocols.",
+      description: "Comprehensive Engineering, Procurement, Construction Maintenance services, delivering end-to-end industrial project lifecycles with strict safety protocols.",
       tag: "PROJECT MGMT",
       icon: "architecture",
       link: "/contact"
     },
     {
-      title: "Engineering Technical Services",
-      description: "Specialized technical support ranging from feasibility studies to complex systems integration for energy infrastructures.",
+      title: "Technical Support Services",
+      description: "Specialized technical support ranging from feasibility studies to complex systems integration for energy infrastructures. These services include valve management support services, pressure testing, asset management, flange managemnet, Leak detection and repairs, Equiment certification.",
       tag: "TECHNICAL SUPPORT",
       icon: "engineering",
       link: "/contact"
     },
     {
-      title: "Wellhead Services",
-      description: "Precision maintenance, installation, and integrity testing for upstream wellhead equipment ensuring continuous production flow.",
+      title: "Upstream Well Support",
+      description: "Precision maintenance, installation, and integrity testing for upstream wellhead equipment ensuring continuous production flow. These services include Wellhead Installation and Commisioning, Wellhead maintance, Wellhead Integrity management, Well Intervension support, Well Leak Repair services.",
       tag: "UPSTREAM",
       icon: "oil_barrel",
       link: "/contact"
     },
     {
-      title: "Pipeline Inspection",
-      description: "Advanced non-destructive testing (NDT) and structural integrity assessments to prevent leaks and maximize pipeline lifespan.",
+      title: "Pipeline Services",
+      description: "Pipeline Inspection services, Pipeline Maintenance Services, Pipeline Repairs and Integrity services.",
+      tag: "PIPELNE",
+      icon: "near-me",
+      link: "/contact"
+    },
+     {
+      title: "Asset Integrity Management Services",
+      description: "Corrision management, Mechanical Integrity services, Structure Integrity Services, Integrity Assetment services, Tank Integrity services, Reliability Centered maintenance, NDT and RBI",
       tag: "INTEGRITY MGMT",
       icon: "visibility",
       link: "/contact"
+    },
+    {
+      title: "Procurement & Supply Chain",
+      description: "Global sourcing of high-spec components and technical equipment with rigorous quality assurance and logistics optimization.",
+      tag: "LOGISTICS",
+      icon: "inventory_2",
+      link: "/services/procurement-logistics"
     },
     {
       title: "Marine Support",
@@ -73,54 +87,12 @@ export default function Services() {
       link: "/services/procurement-logistics"
     },
     {
-      title: "Collision Control Monitoring",
-      description: "State-of-the-art radar and sensor systems to protect offshore assets from maritime traffic and operational hazards.",
-      tag: "SAFETY SYSTEMS",
-      icon: "radar",
-      link: "/contact"
-    },
-    {
-      title: "Pipeline Pegging Inspection",
-      description: "Specialized survey and marking services to ensure accurate geolocating and protection of buried pipeline corridors.",
-      tag: "SURVEYING",
-      icon: "near_me",
-      link: "/contact"
-    },
-    {
       title: "Subsea Engineering",
       description: "Engineering solutions for deep-water assets, including ROV coordination, subsea umbilical design, and manifold installation.",
       tag: "DEEPWATER",
       icon: "waves",
       link: "/contact"
     },
-    {
-      title: "Maintenance & Engineering",
-      description: "Predictive and corrective maintenance frameworks integrated with core engineering design to ensure asset longevity.",
-      tag: "ASSET MGMT",
-      icon: "settings",
-      link: "/contact"
-    },
-    {
-      title: "Consultancy & Design",
-      description: "Strategic engineering advice and FEED (Front-End Engineering Design) that optimizes costs and operational efficiency.",
-      tag: "STRATEGY",
-      icon: "lightbulb",
-      link: "/contact"
-    },
-    {
-      title: "Design and Construction",
-      description: "From concept drafting to physical erection, we provide seamless transition across all construction phases.",
-      tag: "EXECUTION",
-      icon: "construction",
-      link: "/contact"
-    },
-    {
-      title: "Procurement & Supply Chain",
-      description: "Global sourcing of high-spec components and technical equipment with rigorous quality assurance and logistics optimization.",
-      tag: "LOGISTICS",
-      icon: "inventory_2",
-      link: "/services/procurement-logistics"
-    }
   ];
 
   return (
