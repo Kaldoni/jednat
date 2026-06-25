@@ -106,56 +106,6 @@ export default function Home() {
                   of safety and technical precision.
                 </p>
               </div>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-surface p-6 border border-outline-variant border-t-4 border-t-primary">
-                  <span className="material-symbols-outlined text-primary text-4xl mb-4">
-                    analytics
-                  </span>
-                  <h3 className="font-headline-md text-headline-md mb-2">
-                    Strategic Consultation
-                  </h3>
-                  <p className="text-on-surface-variant text-sm">
-                    Providing expert insights for complex infrastructure planning
-                    and asset management.
-                  </p>
-                </div>
-                <div className="bg-surface p-6 border border-outline-variant border-t-4 border-t-technical-blue">
-                  <span className="material-symbols-outlined text-technical-blue text-4xl mb-4">
-                    engineering
-                  </span>
-                  <h3 className="font-headline-md text-headline-md mb-2">
-                    Construction
-                  </h3>
-                  <p className="text-on-surface-variant text-sm">
-                    Executing robust structural projects with precision and
-                    technical mastery.
-                  </p>
-                </div>
-                <div className="bg-surface p-6 border border-outline-variant border-t-4 border-t-safety-orange">
-                  <span className="material-symbols-outlined text-safety-orange text-4xl mb-4">
-                    inventory_2
-                  </span>
-                  <h3 className="font-headline-md text-headline-md mb-2">
-                    Procurement
-                  </h3>
-                  <p className="text-on-surface-variant text-sm">
-                    Supply chain excellence ensuring timely delivery of high-spec
-                    industrial materials.
-                  </p>
-                </div>
-                <div className="bg-surface p-6 border border-outline-variant border-t-4 border-t-primary">
-                  <span className="material-symbols-outlined text-primary text-4xl mb-4">
-                    verified_user
-                  </span>
-                  <h3 className="font-headline-md text-headline-md mb-2">
-                    Safety-First
-                  </h3>
-                  <p className="text-on-surface-variant text-sm">
-                    Zero-compromise HSE protocols integrated into every phase of
-                    operations.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -214,7 +164,7 @@ export default function Home() {
                     Construction
                   </h3>
                   <p className="text-on-surface-variant text-sm mb-4">
-                    Heavy-duty civil engineering and structural development for
+                    Heavy-duty engineering and structural development for
                     industrial plants.
                   </p>
                   <Link
