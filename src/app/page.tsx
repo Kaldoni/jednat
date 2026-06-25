@@ -252,7 +252,7 @@ export default function Home() {
                 </div>
                 {/* Stats Overlay */}
                 <div className="absolute -bottom-10 -right-10 bg-primary p-8 text-on-primary shadow-2xl hidden md:block">
-                  <div className="font-display-lg text-display-lg">15+</div>
+                  <div className="font-display-lg text-display-lg">1o+</div>
                   <div className="font-label-caps text-label-caps opacity-80 uppercase">
                     Years of Excellence
                   </div>

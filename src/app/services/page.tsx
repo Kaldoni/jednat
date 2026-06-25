@@ -46,7 +46,7 @@ export default function Services() {
     },
     {
       title: "Technical Support Services",
-      description: "Specialized technical support ranging from feasibility studies to complex systems integration for energy infrastructures. These services include valve management support services, pressure testing, asset management, flange managemnet, Leak detection and repairs, Equiment certification.",
+      description: "Specialized technical support ranging from feasibility studies to complex systems integration for energy infrastructures. These services include Valve Management support services, Pressure testing, asset management, flange managemnet, Leak detection and repairs, Equipment certification.",
       tag: "TECHNICAL SUPPORT",
       icon: "engineering",
       link: "/contact"
@@ -62,12 +62,12 @@ export default function Services() {
       title: "Pipeline Services",
       description: "Pipeline Inspection services, Pipeline Maintenance Services, Pipeline Repairs and Integrity services.",
       tag: "PIPELNE",
-      icon: "near-me",
+      icon: "inventory_1",
       link: "/contact"
     },
      {
       title: "Asset Integrity Management Services",
-      description: "Corrision management, Mechanical Integrity services, Structure Integrity Services, Integrity Assetment services, Tank Integrity services, Reliability Centered maintenance, NDT and RBI",
+      description: "Corrosion management, Mechanical Integrity services, Structure Integrity Services, Integrity Assetment services, Tank Integrity services, Reliability Centered maintenance, NDT and RBI",
       tag: "INTEGRITY MGMT",
       icon: "visibility",
       link: "/contact"
