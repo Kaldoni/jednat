@@ -37,115 +37,63 @@ export default function Services() {
   }, []);
 
   const capabilities = [
-  {
-    title: "EPCM",
-    description: [
-      "Engineering Services",
-      "Procurement Services",
-      "Construction Services",
-      "Maintenance Services",
-      "End-to-End Industrial Project Lifecycle Delivery",
-      "Safety Protocol Management"
-    ],
-    tag: "PROJECT MGMT",
-    icon: "architecture",
-    link: "/contact"
-  },
-  {
-    title: "Technical Support Services",
-    description: [
-      "Feasibility Studies",
-      "Complex Systems Integration",
-      "Valve Management Support Services",
-      "Pressure Testing",
-      "Asset Management",
-      "Flange Management",
-      "Leak Detection and Repairs",
-      "Equipment Certification"
-    ],
-    tag: "TECHNICAL SUPPORT",
-    icon: "engineering",
-    link: "/contact"
-  },
-  {
-    title: "Upstream Well Support",
-    description: [
-      "Wellhead Installation and Commissioning",
-      "Wellhead Maintenance",
-      "Wellhead Integrity Management",
-      "Well Intervention Support",
-      "Well Leak Repair Services"
-    ],
-    tag: "UPSTREAM",
-    icon: "oil_barrel",
-    link: "/contact"
-  },
-  {
-    title: "Pipeline Services",
-    description: [
-      "Pipeline Inspection Services",
-      "Pipeline Maintenance Services",
-      "Pipeline Repairs",
-      "Pipeline Integrity Services"
-    ],
-    tag: "PIPELINE",
-    icon: "inventory_1",
-    link: "/contact"
-  },
-  {
-    title: "Asset Integrity Management Services",
-    description: [
-      "Corrosion Management",
-      "Mechanical Integrity Services",
-      "Structural Integrity Services",
-      "Integrity Assessment Services",
-      "Tank Integrity Services",
-      "Reliability Centered Maintenance",
-      "NDT",
-      "RBI"
-    ],
-    tag: "INTEGRITY MGMT",
-    icon: "visibility",
-    link: "/contact"
-  },
-  {
-    title: "Procurement & Supply Chain",
-    description: [
-      "Global Sourcing",
-      "High-Spec Component Procurement",
-      "Technical Equipment Procurement",
-      "Quality Assurance",
-      "Logistics Optimization"
-    ],
-    tag: "LOGISTICS",
-    icon: "inventory_2",
-    link: "/services/procurement-logistics"
-  },
-  {
-    title: "Marine Support",
-    description: [
-      "Marine Logistics",
-      "Vessel Management",
-      "Subsea Operation Support",
-      "Offshore Energy Development Support"
-    ],
-    tag: "OFFSHORE",
-    icon: "sailing",
-    link: "/services/procurement-logistics"
-  },
-  {
-    title: "Subsea Engineering",
-    description: [
-      "Deep-Water Asset Engineering",
-      "ROV Coordination",
-      "Subsea Umbilical Design",
-      "Manifold Installation"
-    ],
-    tag: "DEEPWATER",
-    icon: "waves",
-    link: "/contact"
-  }
-];
+    {
+      title: "EPCM",
+      description: "Comprehensive Engineering, Procurement, Construction Maintenance services, delivering end-to-end industrial project lifecycles with strict safety protocols.",
+      tag: "PROJECT MGMT",
+      icon: "architecture",
+      link: "/contact"
+    },
+    {
+      title: "Technical Support Services",
+      description: "Specialized technical support ranging from feasibility studies to complex systems integration for energy infrastructures. These services include Valve Management support services, Pressure testing, asset management, flange managemnet, Leak detection and repairs, Equipment certification.",
+      tag: "TECHNICAL SUPPORT",
+      icon: "engineering",
+      link: "/contact"
+    },
+    {
+      title: "Upstream Well Support",
+      description: "Precision maintenance, installation, and integrity testing for upstream wellhead equipment ensuring continuous production flow. These services include Wellhead Installation and Commisioning, Wellhead maintance, Wellhead Integrity management, Well Intervension support, Well Leak Repair services.",
+      tag: "UPSTREAM",
+      icon: "oil_barrel",
+      link: "/contact"
+    },
+    {
+      title: "Pipeline Services",
+      description: "Pipeline Inspection services, Pipeline Maintenance Services, Pipeline Repairs and Integrity services.",
+      tag: "PIPELNE",
+      icon: "inventory",
+      link: "/contact"
+    },
+     {
+      title: "Asset Integrity Management Services",
+      description: "Corrosion management, Mechanical Integrity services, Structure Integrity Services, Integrity Assetment services, Tank Integrity services, Reliability Centered maintenance, NDT and RBI",
+      tag: "INTEGRITY MGMT",
+      icon: "visibility",
+      link: "/contact"
+    },
+    {
+      title: "Procurement & Supply Chain",
+      description: "Global sourcing of high-spec components and technical equipment with rigorous quality assurance and logistics optimization.",
+      tag: "LOGISTICS",
+      icon: "inventory_2",
+      link: "/services/procurement-logistics"
+    },
+    {
+      title: "Marine Support",
+      description: "Reliable logistics, vessel management, and subsea operation support for offshore energy developments.",
+      tag: "OFFSHORE",
+      icon: "sailing",
+      link: "/services/procurement-logistics"
+    },
+    {
+      title: "Subsea Engineering",
+      description: "Engineering solutions for deep-water assets, including ROV coordination, subsea umbilical design, and manifold installation.",
+      tag: "DEEPWATER",
+      icon: "waves",
+      link: "/contact"
+    },
+  ];
 
   return (
     <>
