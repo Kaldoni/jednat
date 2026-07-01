@@ -102,7 +102,7 @@ export default function Footer() {
               <span className="material-symbols-outlined text-primary text-sm mt-1">
                 location_on
               </span>
-              <span>Klm 2 Refinery road Effurun, Delta State, Nigeria</span>
+              <span>Km 2 Refinery road Effurun, Delta State, Nigeria</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="material-symbols-outlined text-primary text-sm mt-1">

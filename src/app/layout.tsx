@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Manrope, JetBrains_Mono } from "next/font/google";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import "./globals.css";
 
 const inter = Inter({
@@ -51,7 +52,8 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${manrope.variable} ${jetbrainsMono.variable} scroll-smooth`}
+      className={`${inter.variable} ${manrope.variable} ${jetbrainsMono.variable} dark scroll-smooth`}
+      suppressHydrationWarning
     >
       <head>
         <link
@@ -59,8 +61,8 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-surface font-body-md text-on-surface min-h-screen flex flex-col antialiased">
-        {children}
+      <body className="bg-background font-body-md text-on-surface min-h-screen flex flex-col antialiased">
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );

@@ -64,7 +64,7 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* Mobile Toggle Button */}
+        {/* Mobile Menu Button */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           className="md:hidden text-primary focus:outline-none p-2"

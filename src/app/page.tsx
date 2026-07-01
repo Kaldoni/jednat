@@ -93,11 +93,11 @@ export default function Home() {
         {/* What We Do - Bento Grid Style */}
         <section className="py-24 bg-surface-container-lowest">
           <div className="container max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
+            <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 items-center mb-24">
               <div>
-                <h2 className="font-headline-lg text-headline-lg text-on-background mb-6">
+                <h1 className="font-headline-lg text-headline-lg text-on-background mb-6">
                   What We Do
-                </h2>
+                </h1>
                 <p className="font-body-lg text-body-lg text-on-surface-variant">
                   Jednat Projects specializes in solving complex engineering
                   challenges and driving operational efficiency. We bridge the
@@ -111,7 +111,7 @@ export default function Home() {
         </section>
 
         {/* Services Preview Section */}
-        <section className="py-24 bg-surface">
+        <section className="py-1 bg-surface">
           <div className="container max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
             <div className="text-center mb-16">
               <span className="font-label-caps text-label-caps text-primary tracking-widest uppercase">
@@ -123,7 +123,7 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
               {/* Oil & Gas Card */}
-              <div className="group bg-white border border-outline-variant overflow-hidden hover:border-primary transition-colors duration-300">
+              <div className="group bg-surface-white border border-outline-variant overflow-hidden hover:border-primary transition-colors duration-300">
                 <div className="h-48 overflow-hidden">
                   <img
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -151,7 +151,7 @@ export default function Home() {
                 </div>
               </div>
               {/* Construction Card */}
-              <div className="group bg-white border border-outline-variant overflow-hidden hover:border-primary transition-colors duration-300">
+              <div className="group bg-surface-white border border-outline-variant overflow-hidden hover:border-primary transition-colors duration-300">
                 <div className="h-48 overflow-hidden">
                   <img
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -179,7 +179,7 @@ export default function Home() {
                 </div>
               </div>
               {/* Engineering Card */}
-              <div className="group bg-white border border-outline-variant overflow-hidden hover:border-primary transition-colors duration-300">
+              <div className="group bg-surface-white border border-outline-variant overflow-hidden hover:border-primary transition-colors duration-300">
                 <div className="h-48 overflow-hidden">
                   <img
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
@@ -207,7 +207,7 @@ export default function Home() {
                 </div>
               </div>
               {/* Procurement Card */}
-              <div className="group bg-white border border-outline-variant overflow-hidden hover:border-primary transition-colors duration-300">
+              <div className="group bg-surface-white border border-outline-variant overflow-hidden hover:border-primary transition-colors duration-300">
                 <div className="h-48 overflow-hidden">
                   <img
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"

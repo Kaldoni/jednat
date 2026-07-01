@@ -38,7 +38,7 @@ export default function About() {
           <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
             <div className="max-w-3xl">
               <span className="font-label-caps text-label-caps text-primary tracking-widest block mb-4">
-                SINCE 2009
+                SINCE 2015
               </span>
               <h1 className="font-display-lg text-display-lg md:text-[64px] text-on-surface leading-none mb-8">
                 Our Story
@@ -219,7 +219,7 @@ export default function About() {
               [ TEAM_PROFILE ]
             </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
             {/* CEO */}
             <div className="group">
               <div className="aspect-[3/4] bg-surface-container border border-outline-variant mb-6 overflow-hidden relative">
@@ -290,30 +290,6 @@ export default function About() {
               <p className="font-body-md text-body-md text-on-surface-variant">
                 Managing corporate fiscal health and sustainable investment in
                 technical infrastructure.
-              </p>
-            </div>
-            {/* Operations */}
-            <div className="group">
-              <div className="aspect-[3/4] bg-surface-container border border-outline-variant mb-6 overflow-hidden relative">
-                <img
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                  alt="Victory Smith, Operations Director"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJvns98VXLscFHGQkTarRR65zAgnRhpbc-UDbDIJAEm6C50kNhIrREZ2CLgzYDbp_IYR1yNty_nQ5A5qUtvS3zJOWb5XTGEL0Kg92r0d7BW0fKor32Q9AvfknvoU6y5ZMGRw2S4d5gLYf4mnWgW1Ecqg2HWgyF5tEsjTQ-AAg2V-0c4ai1-Vat2cD-wt2IsaDtieNfTQO8ProQ-Qsvo7FWIRM9ebTvx800hVeBAZgLF9zpxO0pzilj44wyLfExXCN1C5qnbOrzVGJO"
-                />
-                <div className="absolute top-4 right-4 bg-safety-orange text-on-primary font-technical-data text-[10px] px-2 py-1">
-                  OPERATIONS
-                </div>
-              </div>
-              <h4 className="font-headline-md text-headline-md text-on-surface">
-                Ms. Precious 
-              </h4>
-              <p className="font-label-caps text-label-caps text-primary mb-2">
-                OPERATIONS DIRECTOR
-              </p>
-              <div className="h-[1px] w-full bg-outline-variant mb-4"></div>
-              <p className="font-body-md text-body-md text-on-surface-variant">
-                Overseeing daily industrial workflows and ensuring project
-                milestones are met safely.
               </p>
             </div>
           </div>

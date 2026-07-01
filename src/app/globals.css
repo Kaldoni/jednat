@@ -74,16 +74,52 @@
   --font-headline-lg: var(--font-manrope);
 }
 
+.dark {
+  --color-background: #013220;
+  --color-surface: #013220;
+  --color-surface-white: #062f20;
+  --color-surface-container-lowest: #013220;
+  --color-surface-container-low: #073d2b;
+  --color-surface-container: #0a4934;
+  --color-surface-container-high: #0d563e;
+  --color-surface-container-highest: #124b38;
+  --color-surface-bright: #14543f;
+  --color-surface-variant: #193f32;
+  --color-on-background: #f2fff6;
+  --color-on-surface: #f2fff6;
+  --color-on-surface-variant: #c9dccf;
+  --color-outline: #7fa090;
+  --color-outline-variant: #2f6951;
+  --color-primary: #9dd761;
+  --color-on-primary: #0e2000;
+  --color-primary-container: #214b22;
+  --color-on-primary-container: #d5ffc0;
+  --color-primary-fixed: #9dd761;
+  --color-primary-fixed-dim: #9dd761;
+  --color-inverse-surface: #eff1ef;
+  --color-inverse-on-surface: #1b211d;
+}
+
 /* Custom Utilities from Original Design */
 .technical-grid {
   background-size: 32px 32px;
   background-image: linear-gradient(to right, #eceeec 1px, transparent 1px), linear-gradient(to bottom, #eceeec 1px, transparent 1px);
 }
 
+.dark .technical-grid {
+  background-image: linear-gradient(to right, rgba(157, 215, 97, 0.14) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(157, 215, 97, 0.14) 1px, transparent 1px);
+}
+
 .technical-grid-bg {
   background-size: 32px 32px;
   background-image: linear-gradient(to right, #e0e0e0 1px, transparent 1px),
                     linear-gradient(to bottom, #e0e0e0 1px, transparent 1px);
+}
+
+.dark .technical-grid-bg {
+  background-image: linear-gradient(to right, rgba(157, 215, 97, 0.16) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(157, 215, 97, 0.16) 1px, transparent 1px);
 }
 
 .text-vertical {

@@ -39,56 +39,64 @@ export default function Services() {
   const capabilities = [
     {
       title: "EPCM",
-      description: "Comprehensive Engineering, Procurement, Construction Maintenance services, delivering end-to-end industrial project lifecycles with strict safety protocols.",
+      explanation: "These services include:",
+      description: ["Comprehensive Engineering", "Procurement", "Construction Maintenance services", "delivering end-to-end industrial project lifecycles with strict safety protocols."],
       tag: "PROJECT MGMT",
       icon: "architecture",
       link: "/contact"
     },
     {
       title: "Technical Support Services",
-      description: "Specialized technical support ranging from feasibility studies to complex systems integration for energy infrastructures. These services include Valve Management support services, Pressure testing, asset management, flange managemnet, Leak detection and repairs, Equipment certification.",
+      explanation: "Specialized technical support ranging from feasibility studies to complex systems integration for energy infrastructures:",
+      description: ["Valve Management support services", "Pressure testing", "asset management", "flange management", "Leak detection and repairs", "Equipment certification."],
       tag: "TECHNICAL SUPPORT",
       icon: "engineering",
       link: "/contact"
     },
     {
       title: "Upstream Well Support",
-      description: "Precision maintenance, installation, and integrity testing for upstream wellhead equipment ensuring continuous production flow. These services include Wellhead Installation and Commisioning, Wellhead maintance, Wellhead Integrity management, Well Intervension support, Well Leak Repair services.",
+      explanation: "Precision maintenance,installation, and integrity testing for upstream wellhead equipment ensuring continuous production flow. These services include:",
+      description: ["Wellhead Installation and Commisioning", "Wellhead maintance", "Wellhead Integrity management", "Well Intervension support", "Well Leak Repair services."],
       tag: "UPSTREAM",
       icon: "oil_barrel",
       link: "/contact"
     },
     {
       title: "Pipeline Services",
-      description: "Pipeline Inspection services, Pipeline Maintenance Services, Pipeline Repairs and Integrity services.",
+      explanation: "Comprehensive pipeline services for inspection, maintenance, and repairs:",
+      description: ["Pipeline Inspection services", "Pipeline Maintenance Services", "Pipeline Repairs and Integrity services."],
       tag: "PIPELNE",
       icon: "inventory",
       link: "/contact"
     },
      {
       title: "Asset Integrity Management Services",
-      description: "Corrosion management, Mechanical Integrity services, Structure Integrity Services, Integrity Assetment services, Tank Integrity services, Reliability Centered maintenance, NDT and RBI",
+      explanation: "Ensuring the safety, reliability, and longevity of industrial assets through proactive integrity management strategies. These services include:",
+      description: ["Corrosion management", "Mechanical Integrity services", "Structure Integrity Services", "Integrity Assetment services", "Tank Integrity services", "Reliability Centered maintenance", "NDT and RBI"],
       tag: "INTEGRITY MGMT",
       icon: "visibility",
       link: "/contact"
     },
     {
       title: "Procurement & Supply Chain",
-      description: "Global sourcing of high-spec components and technical equipment with rigorous quality assurance and logistics optimization.",
+      explanation: "These services include:",
+      description: ["Global sourcing of high-spec components and technical equipment with rigorous quality assurance and logistics optimization."],
       tag: "LOGISTICS",
       icon: "inventory_2",
       link: "/services/procurement-logistics"
     },
     {
       title: "Marine Support",
-      description: "Reliable logistics, vessel management, and subsea operation support for offshore energy developments.",
+      explanation: "These services include:",
+      description: ["Reliable logistics", "vessel management", "subsea operation support for offshore energy developments."],
       tag: "OFFSHORE",
       icon: "sailing",
       link: "/services/procurement-logistics"
     },
     {
       title: "Subsea Engineering",
-      description: "Engineering solutions for deep-water assets, including ROV coordination, subsea umbilical design, and manifold installation.",
+      explanation: "These services include:",
+      description: ["Engineering solutions for deep-water assets, including:", "ROV coordination", "subsea umbilical design", "and manifold installation."],
       tag: "DEEPWATER",
       icon: "waves",
       link: "/contact"
@@ -98,7 +106,7 @@ export default function Services() {
   return (
     <>
       <Header />
-      <main className="pt-20 flex-grow">
+      <main className="pt-20 flex-grow bg-background">
         {/* Hero Section */}
         <section className="relative py-24 md:py-32 overflow-hidden border-b border-outline-variant bg-surface-container-low">
           <div className="absolute inset-0 technical-grid-bg opacity-30"></div>
@@ -149,9 +157,22 @@ export default function Services() {
                 <h3 className="font-headline-md text-headline-md mb-4">
                   {item.title}
                 </h3>
-                <p className="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
-                  {item.description}
+                <p className="font-body-md text-body-md text-on-surface-variant mb-6">
+                  {item.explanation}
                 </p>
+                <div className="mb-6 flex-grow">
+                  {Array.isArray(item.description) ? (
+                    <ul className="list-disc pl-5 space-y-2 font-body-md text-body-md text-on-surface-variant">
+                      {item.description.map((service, i) => (
+                        <li key={i}>{service}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="font-body-md text-body-md text-on-surface-variant">
+                      {item.description}
+                    </p>
+                  )}
+                </div>
                 <div className="pt-4 border-t border-outline-variant flex justify-between items-center">
                   <span className="font-label-caps text-label-caps text-primary">
                     {item.tag}
